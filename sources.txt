@@ -1,0 +1,10 @@
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\adopcion\AdopcionManager.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\adopcion\Observador.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\adopcion\Solicitud.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\externo\MascotaExternaAdapter.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\main\Main.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\modelo\Gato.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\modelo\Mascota.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\modelo\MascotaFactory.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\modelo\Perro.java
+C:\Users\hopu_\Desktop\AdoptaConCuidado\src\ui\Menu.java

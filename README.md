@@ -73,17 +73,27 @@ java -cp bin main.Main
 
 ---
 
-## ✅ Justificación técnica
+## ✅ Justificación técnica de patrones
 
-El proyecto cumple con los siguientes criterios de la rúbrica:
+🔒 Singleton – AdopcionManager
 
-| Criterio                                | Cumplimiento |
-|----------------------------------------|--------------|
-| 4 Patrones bien implementados          | ✅ Sí         |
-| Sistema funcional sin errores críticos | ✅ Sí         |
-| Código modular y claro                 | ✅ Sí         |
-| README estructurado y técnico          | ✅ Sí         |
-| Instrucciones claras y ejecutables     | ✅ Sí         |
+Usado para que exista una sola instancia que maneje todo el sistema de adopciones y mascotas disponibles.
+Evita inconsistencias y permite un acceso centralizado desde cualquier parte del programa.
+
+🏭 Factory Method – MascotaFactory
+
+Permite crear mascotas según el tipo sin usar new directamente.
+Facilita agregar nuevos tipos sin modificar la lógica principal, manteniendo el código extensible y ordenado.
+
+🔌 Adapter – MascotaExternaAdapter
+
+Adapta clases externas para que se comporten como Mascota.
+Prepara el sistema para integrar datos de otras fuentes sin romper la estructura interna.
+
+📣 Observer – Observador
+
+Define una base para que el sistema pueda notificar cambios a otros componentes (como futuras alertas o registros).
+Aún no se usa activamente, pero permite escalar el sistema fácilmente a futuro.
 
 ---
 
